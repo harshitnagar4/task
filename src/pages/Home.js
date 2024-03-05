@@ -57,7 +57,7 @@ const Home = () => {
                 return ele.country.map((country) => {
                   return (
                     <Fragment key={country.country_id}>
-                      <div className="col-md-4">
+                      <div className="col-md-4 my-2">
                         <div class="card">
                           <div class="card-body">
                             <h5 class="card-title">{ele.name}</h5>
