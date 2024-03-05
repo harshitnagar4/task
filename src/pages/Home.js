@@ -68,7 +68,7 @@ const Home = () => {
                               The Probability of the searched name in the
                               country{" "}
                               <span className="text-success fw-bold">
-                                {"IN"}
+                                {country.country_id}
                               </span>{" "}
                               is{" "}
                               <span>
